@@ -23,7 +23,7 @@ Building a e-commerce platform for my friend
 ---
 # Development Steps
 ---
-[]1. Set Up Your Development Environment: Install Node.js and npm (Node Package Manager).
+1. Set Up Your Development Environment: Install Node.js and npm (Node Package Manager).
 2. Create Your Frontend: Build your frontend using a framework of your choice, designing pages for product listings, a shopping cart, and checkout.
 3. Set Up Your Backend: Create an Express server that handles API requests for fetching products, processing orders, etc.
 4. Connect to a Database: Use Mongoose or another ORM to connect your backend to your database.
