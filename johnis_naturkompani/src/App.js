@@ -1,6 +1,8 @@
 import React from 'react';
 import { Menu, Search, User, ShoppingCart } from 'lucide-react';
 import heroImage from './assets/hiking.webp';
+import basketImg from './assets/Basketball.png';
+import skiImg from './assets/skidakning.jpg';
 
 const App = () => {
     return (
@@ -62,15 +64,15 @@ const App = () => {
             {[1, 2, 3, 4, 5].map((item) => (
               <div key={item} className="bg-white p-4 rounded-lg shadow">
                 <img
-                  src="/api/placeholder/300/300"
+                  src={basketImg}
                   alt="Product"
                   className="w-full h-48 object-cover mb-4"
                 />
                 <div className="bg-black text-white px-2 py-1 inline-block mb-2">
                   Save 22%
                 </div>
-                <h3 className="font-bold">Product Name</h3>
-                <p className="text-gray-600">Brand Name</p>
+                <h3 className="font-bold">Basketboll</h3>
+                <p className="text-gray-600">Stadium</p>
                 <p className="text-green-600 mt-2">In Stock</p>
               </div>
             ))}
@@ -80,10 +82,10 @@ const App = () => {
         {/* Category Grid */}
         <div className="container mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            {['KIDÅKNING', 'SOVSÄCKAR', 'SPARSKIDOR', 'VANDRINGSKLÄDER'].map((category) => (
+            {['SKIDÅKNING', 'SOVSÄCKAR', 'SPARSKIDOR', 'VANDRINGSKLÄDER'].map((category) => (
               <div key={category} className="relative h-64">
                 <img
-                  src="/api/placeholder/400/300"
+                  src={skiImg}
                   alt={category}
                   className="w-full h-full object-cover"
                 />
