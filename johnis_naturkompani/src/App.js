@@ -10,7 +10,7 @@ const App = () => {
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center space-x-4">
                 <Menu className="h-6 w-6" />
-                <span className="text-xl font-bold text-green-800">NATUREXPERTEN</span>
+                <span className="text-xl font-bold text-green-800">Johnis Naturkompani</span>
               </div>
               
               <div className="flex-1 max-w-2xl mx-4">
