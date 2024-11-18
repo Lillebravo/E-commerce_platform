@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu, Search, User, ShoppingCart } from 'lucide-react';
+import heroImage from './assets/hiking.webp';
 
 const App = () => {
     return (
@@ -42,7 +43,7 @@ const App = () => {
         {/* Hero Banner */}
         <div className="relative h-96">
           <img
-            src="/api/placeholder/1920/600"
+            src={heroImage}
             alt="Hero banner"
             className="w-full h-full object-cover"
           />
